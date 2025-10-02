@@ -1,3 +1,41 @@
-h1, #info-paragraph, .nav-links {
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header{
     text-align: center;
+    margin: auto;
+    background-color: #DCDCDC;
+}
+
+hr{
+    height:1px;
+    border-color: #e8eaff;
+    background-color: black;
+    margin: 2%;
+}
+
+a:link, a:visited {
+    color: #4169E1;
+}
+
+a:hover {
+    color: #7B68EE;
+}
+
+p{
+    color: #696969;
+}
+
+#about_btn, #contact_btn{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #4169E1;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
