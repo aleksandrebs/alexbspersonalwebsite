@@ -8,6 +8,7 @@ body{
 header{
     text-align: center;
     margin: auto;
+    padding: 5px;
     background-color: #DCDCDC;
 }
 
@@ -30,9 +31,34 @@ p{
     color: #696969;
 }
 
-#about_btn, #contact_btn{
+#about_btn, #contact_btn, #portfolio_btn {
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #4169E1;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact ul li{
+    list-style-type: none;
+}
+
+#mail_btn, #github_btn, #linkedin_btn{
+    display: inline-block;
+    margin: 10px;
     padding: 10px 20px;
     border: 2px solid #4169E1;
     border-radius: 5px;
