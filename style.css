@@ -52,6 +52,22 @@ p{
     text-align: center;
 }
 
+#about_me{
+    text-align: center;
+    margin: 20px;
+}
+
+#projects{
+    text-align: center;
+    margin: 20px;
+}
+
+#projects p{
+    font-style: italic;
+    font-weight: bold;
+    color: #e35353;
+}
+
 #contact ul li{
     list-style-type: none;
 }
