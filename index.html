@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandre's Website</title>
+    
+    <!-- import the font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aleksandre's Website</title>
-        <!-- The meta element with the description is for SEO optimization -->
-        <meta 
+    <meta 
         name="description"
         content="This is a personal website of Aleksandre Bit-Suleiman, a curious and innovative Computer Science major studying at The American University of Paris..."
-        />
-        <link rel="stylesheet" href="./style.css"/>
-    </head>
+    />
+    
+</head>
 
-    <body>
-        <header>
-            <h1>Aleksandre Bit-Suleiman</h1>
-            <p id="info-paragraph">A curious and innovative BSc Computer Science student at The American University of Paris</p>
-            <div class="nav-links">
-                <nav class="nav-links">
-                    <div>
-                        <a href="#about_me" id="about_btn">About</a> 
-                    </div>
-                    <div>
-                        <a href="#contact" id="about_btn">Contact</a>
-                    </div>
-                    <div>
-                        <a href="#portolio" id="portfolio_btn">Portfolio</a>
-                    </div>
+<body>
 
-                </nav>
+    <nav class="navbar">
+        <a href="#" class="logo">&lt;/&gt;</a>
+        <div class="nav-links">
+            <a href="#about_me" class="btn">About</a> 
+            <a href="#projects" class="btn">Portfolio</a>
+            <a href="#contact" class="btn btn-primary">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Aleksandre <span class="highlight">Bit-Suleiman</span></h1>
+        <p id="info-paragraph">A curious and innovative BSc Computer Science student</p>
+    </section>
+
+    <main>
+        <section id="about_me">
+            <h2>About Me</h2>
+            <p>Hello! I'm Aleksandre, a passionate Computer Science student from Tbilisi, Georgia; currently studying in Paris, France.</p>
+            <p>Welcome to my personal website, where you can find my portfolio, projects, contact information and socials!</p>
+            <p>I have been interested in the field of technology since I was 10 years old. My goal is to connect and work with like-minded individuals in this ever changing field.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="wip-box">
+                Work in progress...
             </div>
-        </header>
-        <hr>
-        <!-- The following main element helps with SEO and optimization -->
-        <main>
-            <section id="about_me">
-                <h2>About Me</h2>
-                <p>Hello! I'm Aleksandre Bit-Suleiman, a passionate Computer Science student from Tbilisi, Georgia; currently studying in Paris, France.</p>
-                <p>Welcome to my personal website, where you can find my portfolio, projects, contact information and socials!</p>
-                <p>I have been interested in the field of technology since I was 10 years old. My goal is to connect and work with like-minded individuals in this ever changing field.</p>
-            </section>
-            
-            <section id="projects">
-                <h2>My Projects</h2>
-                <p>Work in progress...</p>
-            </section>
+        </section>
 
-            <section id="contact">
-            <h3>Useful Links & Contact Info:</h3>
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I am currently open to internship opportunities.</p>
             <ul>
-                <address>
-                    <li><a href="mailto:a.bitsuleiman@gmail.com" id="mail_btn">Email: a.bitsuleiman@gmail.com</a></li>
-                </address>
-                <li><a href="https://github.com/aleksandrebs" target="_blank" id="github_btn">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/alexandre-bit-suleiman-5554662a8" target="_blank" id="linkedin_btn">LinkedIn</a></li>
+                <li><a href="mailto:a.bitsuleiman@gmail.com" class="btn btn-primary">Email Me</a></li>
+                <li><a href="https://github.com/aleksandrebs" target="_blank" class="btn btn-outline">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/alexandre-bit-suleiman-5554662a8" target="_blank" class="btn btn-outline">LinkedIn</a></li>
             </ul>
-            </section>
-        </main>
+        </section>
+    </main>
 
-    </body>
+    <footer>
+        <p>Aleksandre Bit-Suleiman 2026</p>
+    </footer>
 
+</body>
 </html>
